@@ -3,7 +3,7 @@ name: BookMyShow Interest Tracker
 on:
   schedule:
     # Runs every hour (UTC)
-    - cron: "0 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:  # allows manual run from GitHub UI
 
 jobs:
