@@ -26,7 +26,7 @@ jobs:
 
       - name: ▶️ Run tracker
         run: |
-          python tracker.py
+          python bmsinterests.py
 
       - name: 💾 Commit updated data (if changed)
         run: |
